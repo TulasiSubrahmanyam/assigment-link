@@ -1,38 +1,191 @@
-.App {
+.AppContainer{
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+header{
+  background-color: #F0F8FF;
+  width: 100vw;
+  height: 65px;
+  position: absolute;
+  padding: 5px;
+}
+.AppHeader{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo{
+  width:60px;
+  height: 30px;
+  align-items: center;
+  margin-left: 480px;
+}
+header h1{
+  color: #004f95;
+  
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 40px;
+  }
+.contact{
+  color: #004f95;
+  font-weight: 600;
+  font-size: 13px;
+  float: right;
+  padding-right:40px ;
+  padding-bottom: 0px;
+  padding-top: 15px;
+  margin-left: 340px;
+}
+.card1{
+  background-color:#004f95;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 90px;
+  width: 500px;
+  height: 360px;
+  margin-right: 40px;
+}
+.cardHeading{
+  font-size: 30px;
+  font-weight: 780;
+  color:#ffffff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imgs{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sideHeading{
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.para{
+  color: #ffffff;
+  font-size: 12px;
+}
+.card2{
+  background-color: #F0F8FF;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 90px;
+  width: 500px;
+  height: 360px;
+  margin-left: 30px;
+}
+.signHeading{
+  color:#F78117;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center
+}
+.horizontalLine{
+  border: solid 1px gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+.formContent{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 60px;
 }
-
-.App-link {
-  color: #61dafb;
+.signSideheading{
+  font-size: 18px;
+  color:#004f95;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
+.labeHeading{
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a2a2a;
+  
+}
+::placeholder{
+  font-size: 13px;
+  font-weight: 500;
+  color: #c4bdbd;
+}
+.inputData{
+  display: block;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 35px;
+  padding: 10px;
+  color: #2a2a2a;
+  box-shadow: 2px 2px #f0e6e6;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.forgotext{
+  color: #E12C33;
+  font-size: 11px;
+  font-weight: 600;
+}
+.button{
+  width: 350px;
+  height: 35px;
+  background-color: #004f95;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 500;
+}
+.cardFotter{
+  font-size: 11px;
+  font-family: 500;
+  margin-top: 10px;
+  color: #7a7a7a;
+  text-align: center;
+  margin-right: 70px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.download{
+  font-size: 16px;
+  font-weight: 500;
+  color:#004f95;
+  margin-top: 5px;
+}
+.downLoadImg{
+  width: 130px;
+  height: 40px;
+  margin-left: 20px;
+}
+.footerContainer{
+  background-color: #F0F8FF;
+  width: 100vw;
+  height:60px;
+  margin-top: 35px;
+ padding: 10px;
+}
+.logo2{
+  width: 35px;
+  height: 20px;
+  margin-left: 70px;
+}
+.copyRights{
+  display: inline;
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.terms{
+  display: inline;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-right: 60px;
 }
